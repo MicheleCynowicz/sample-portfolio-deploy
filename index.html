@@ -6,74 +6,94 @@
     <link rel="stylesheet" href="portfolio.css">
   </head>
   <body>
+    <a name="top"></a>
     <header>
-      <h1>Michele Cynowicz</h1>
-      <nav>
+      <h1><a class="nav-link" href="#top">Michele Cynowicz</a></h1>
+      <nav aria-label="primary">
         <ul>
-          <li><a href="#videos">Videos</a></li>
-          <li><a href="#podcasts">Podcast appearances</a></li>
-          <li><a href="#blogs">Blog posts</a></li>
-          <li><a href="#community">Other community involvement</a></li>
+          <li><a class="nav-link" href="#work">Work</a></li>
+          <li><a class="nav-link" href="#videos">Videos</a></li>
+          <li><a class="nav-link" href="#podcasts">Podcast appearances</a></li>
+          <li><a class="nav-link" href="#blogs">Blog posts</a></li>
+          <li><a class="nav-link" href="#community">Other community involvement</a></li>
         </ul>
       </nav>
     </header>
+
     <main>
+
       <section>
-        <h3><a name="top" class="invisible-page-link"></a>About</a></h3>
-        <p><img src="images/pirate-headshot.jpg" alt="a portrait photo of Michele Cynowicz wearing an oversized pirate-style hat with feathers in it" />Michele "<a href="https://twitter.com/michelecynowicz" target="_blank">the #CodePirate</a>" Cynowicz has been working in web applications development for nearly 20 years. Originally from New York City, Michele currently works and advocates for remote work in the tech industry from the Tampa Bay Area of Florida. She is a Senior Front-End Engineer, passionate about teaching and mentoring juniors. In her spare time, Michele is a volunteer with the Girl Scouts, a classic RPG gamer and a fitness enthusiast.</p>
+        <h3><a name="top">About</a></h3>
+        <div style="display: flex; align-items:center;">
+          <img src="images/pirate-headshot.jpg" alt="a portrait photo of Michele Cynowicz wearing an oversized pirate-style hat with feathers in it" width="200" />
+          <blockquote class="bio">Michele <a href="https://twitter.com/michelecynowicz">the #CodePirate</a>" Cynowicz has been working in web applications development for nearly 20 years. Originally from New York City, Michele currently works and advocates for remote work in the tech industry from the Tampa Bay Area of Florida. She is a Senior Front-End Engineer, passionate about teaching and mentoring juniors. In her spare time, Michele is a volunteer with the Girl Scouts, a classic RPG gamer and a fitness enthusiast.</blockquote>
+        </div> 
       </section>
 
       <section>
-        <h3><a name="videos" class="invisible-page-link">Videos</a></h3>
+        <h3><a name="work">Work</a></h3>
         <ul>
-          <li><a href="https://youtu.be/1J72YQOm2zk?t=2019" target="_blank">Successful Remote Work Culture</a>
+          <!-- <li><a tabindex=0 role="tab" href="https://youtu.be/1J72YQOm2zk?t=2019">Successful Remote Work Culture</a>
             <li>(Presented at Connect.tech 2018, Vue Vixens Day 2020, VueNYC meetup #43)</li>
           </li>
-          <li><a href="https://youtu.be/AWQTbb6rmwI" target="_blank">Shifting to Vue</a>
+          <li><a tabindex=0 role="tab" href="https://youtu.be/AWQTbb6rmwI">Shifting to Vue</a>
             <li>(Presented at Google DevFest Florida 2019)</li>
+          </li> -->
+        </ul>
+      </section>
+
+      <section>
+        <h3><a name="videos">Videos</a></h3>
+        <ul>
+          <li><a href="https://youtu.be/1J72YQOm2zk?t=2019">Successful Remote Work Culture</a>
+            <br />(Presented at Connect.tech 2018, Vue Vixens Day 2020, VueNYC meetup #43)</li>
+          </li>
+          <li><a href="https://youtu.be/AWQTbb6rmwI">Shifting to Vue</a>
+            <br />(Presented at Google DevFest Florida 2019)</li>
           </li>
         </ul>
       </section>
 
       <section>
-        <h3><a name="videos" class="invisible-page-link">Podcast guest appearances</a></h3>
+        <h3><a name="videos">Podcast guest appearances</a></h3>
         <ul>
-          <li><a href="https://www.codeprep.io/podcast/056/" target="_blank">CodePrep podcast episode 056: Michele Cynowicz</a></li>
-          <li><a href="https://youtu.be/kLv5sk3210s" target="_blank">Views on Vue podcast episode 065: Redesigning for State Management using VueJS in Rails with Michele Cynowicz</li>
-          <li><a href="https://devchat.tv/views-on-vue/vov-086-prototyping-and-the-design-cycle-with-michele-cynowicz/" target="_blank">Views on Vue podcast episode 086: Prototyping and The Design Cycle With Michele Cynowicz</li>
-          <li><a href="https://www.thundernerds.io/2019/01/michele-cynowicz-devfest-florida-2019/" target="_blank">Thunder Nerds podcast episode 175: Michele Cynowicz, DevFest Florida 2019</li>
-          <li><a href="https://www.thundernerds.io/2019/04/michele-cynowicz-vueconf-us-2019/" target="_blank">Thunder Nerds podcast episode 204: Michele Cynowicz, VueConf 2019</li>
-          <li><a href="https://open.spotify.com/episode/4Yt8aBGT5d6w9fSaD5j5F6" target="_blank">Friends that Code podcast episode 12: Why remote work is important for everyone and big hats at meetups with Michele Cynowicz</li>
+          <li><a href="https://www.codeprep.io/podcast/056/">CodePrep podcast episode 056: Michele Cynowicz</a></li>
+          <li><a href="https://youtu.be/kLv5sk3210s">Views on Vue podcast episode 065: Redesigning for State Management using VueJS in Rails with Michele Cynowicz</a></li>
+          <li><a href="https://devchat.tv/views-on-vue/vov-086-prototyping-and-the-design-cycle-with-michele-cynowicz/">Views on Vue podcast episode 086: Prototyping and The Design Cycle With Michele Cynowicz</a></li>
+          <li><a href="https://www.thundernerds.io/2019/01/michele-cynowicz-devfest-florida-2019/">Thunder Nerds podcast episode 175: Michele Cynowicz, DevFest Florida 2019</a></li>
+          <li><a href="https://www.thundernerds.io/2019/04/michele-cynowicz-vueconf-us-2019/">Thunder Nerds podcast episode 204: Michele Cynowicz, VueConf 2019</a></li>
+          <li><a href="https://open.spotify.com/episode/4Yt8aBGT5d6w9fSaD5j5F6">Friends that Code podcast episode 12: Why remote work is important for everyone and big hats at meetups with Michele Cynowicz</a></li>
         </ul>
       </section>
 
       <section>
-        <h3><a name="blogs" class="invisible-page-link">Blog posts</a></h3>
+        <h3><a name="blogs">Blog posts</a></h3>
         <ul>
           <li><a href="https://product.voxmedia.com/2019/6/11/18527387/prototypes-usability-testing-vuejs" target="_blabk">Prototypes for usability testing with VueJS</a></li>
         </ul>
       </section>
 
       <section>
-        <h3><a name="community" class="invisible-page-link">Other community involvement</a></h3>
+        <h3><a name="community">Other community involvement</a></h3>
         <ul>
-          <li>Functional Prototypes and the Design Cycle (Front End Design Meetup 2019)</li>
-          <li>Pull Requests and the Developers who love them (Suncoast Developers Conference Summer 2020, VueNYC meetup #46)</li>
-          <li>How to be a good mentor (Front-End Foxes training event)</li>
-          <li>Running remote workshops with Zoom (Front-End Foxes training event)</li>
-          <li>Crash Course: Intro to Open-Sourced Software Contributing (Suncoast Developers Guild meetup, July 2020)</li>
-          <li>Vue Vixens Intro to Vue, full-day workshop (Connect.tech 2018, VueConfUS 2019, Suncoast Developers Guild 2019)</li>
+          <li><span class="no-link">Functional Prototypes and the Design Cycle (Front End Design Meetup 2019)</span></li>
+          <li><span class="no-link">Pull Requests and the Developers who love them (Suncoast Developers Conference Summer 2020, VueNYC meetup #46)</span></li>
+          <li><span class="no-link">How to be a good mentor (Front-End Foxes training event)</span></li>
+          <li><span class="no-link">Running remote workshops with Zoom (Front-End Foxes training event)</span></li>
+          <li><span class="no-link">Crash Course: Intro to Open-Sourced Software Contributing (Suncoast Developers Guild meetup, July 2020)</span></li>
+          <li><span class="no-link">Vue Vixens Intro to Vue, full-day workshop (Connect.tech 2018, VueConfUS 2019, Suncoast Developers Guild 2019)</span></li>
         </ul>
       </section>
 
-      <footer>
-        <nav>
-          <ul>
-            <li><a class="social-link linkedin" title="LinkedIn" href="https://www.linkedin.com/in/michelecynowicz" target="_bank">Linkedin</a></li>
-            <li><a class="social-link twitter" title="Twitter" href="https://twitter.com/michelecynowicz" target="_bank">Twitter</a></li>
-          </ul>
-        </nav>
-      </footer>
     </main>
+
+    <footer>
+      <nav>
+        <ul>
+          <li><a tabindex=0 role="tab" class="social-link linkedin" title="LinkedIn" href="https://www.linkedin.com/in/michelecynowicz" target="_bank"><img src="images/linkedIn-logo.svg" alt="LinkedIn Logo" width="120"></a></li>
+          <li><a tabindex=0 role="tab" class="social-link twitter" title="Twitter" href="https://twitter.com/michelecynowicz" target="_bank"><img src="images/twitter-logo.svg" alt="Twitter logo" width="40" /></a></li>
+        </ul>
+      </nav>
+    </footer>
   </body>
 </html>
